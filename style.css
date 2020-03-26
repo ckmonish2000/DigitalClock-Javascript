@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.main{
+    background: #cccccc;
+    width: 400px;
+    margin: 100px auto;
+    height:175px;
+    position: relative ;
+    padding: 30px;
+    
+}
+
+.badge{
+    background:#e66357;
+    color:white;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 96px;
+    position: absolute;
+    top:-15px ;
+    left: 40%;
+    text-align: center;
+}
+
+.clock{
+    background: #aaaaaa;
+    text-align: center;
+    font-size: 55px;
+    height: 100%;
+    padding-top: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     border-radius: 4px;
+}
+
+
